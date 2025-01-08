@@ -1,0 +1,13 @@
+#container__evaluation{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.column_three{
+    text-align: right;
+}
+
+.column_three__text{
+    font-size: large;
+    font-weight: 1000;
+}

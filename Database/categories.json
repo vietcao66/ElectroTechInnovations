@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "653a6c3db32da1285f70165e"
+  },
+  "name": "Điện thoại",
+  "description": "Điện thoại",
+  "slug": "/dien-thoai",
+  "image": "http://localhost:3100/uploads\\1698327613140-icon-phone-96x96-2.png",
+  "createdAt": {
+    "$date": "2023-10-26T13:40:13.159Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-26T13:40:13.159Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "653a6c4db32da1285f701662"
+  },
+  "name": "Laptop",
+  "description": "Laptop",
+  "slug": "/laptop",
+  "image": "http://localhost:3100/uploads\\1698327629028-icon-laptop-96x96-1.png",
+  "createdAt": {
+    "$date": "2023-10-26T13:40:29.058Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-26T13:40:29.058Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "653a6c5cb32da1285f701666"
+  },
+  "name": "Tablet",
+  "description": "Table",
+  "slug": "/tablet",
+  "image": "http://localhost:3100/uploads\\1698327644936-icon-tablet-96x96-1.png",
+  "createdAt": {
+    "$date": "2023-10-26T13:40:44.952Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-26T13:40:44.952Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "653a6c6db32da1285f70166a"
+  },
+  "name": "Phụ kiện",
+  "description": "Phụ kiện",
+  "slug": "/phu-kien",
+  "image": "http://localhost:3100/uploads\\1698327661619-icon-phu-kien-96x96-1.png",
+  "createdAt": {
+    "$date": "2023-10-26T13:41:01.635Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-26T13:41:01.635Z"
+  },
+  "__v": 0
+}]
