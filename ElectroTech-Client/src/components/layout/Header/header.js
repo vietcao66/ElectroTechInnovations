@@ -154,7 +154,7 @@ function Topbar() {
   }, []);
 
   return (
-    <Header style={{ background: "#D70018" }} className={styles.header}>
+    <Header style={{ background: "#FFFFFF" }} className={styles.header}>
       <div className="">
         <img
           style={{
@@ -215,27 +215,18 @@ function Topbar() {
         >
           <Row>
             <Col onClick={() => handleLink("/cart")}>
-              <p
-                style={{
-                  marginRight: 10,
-                  padding: 0,
-                  margin: 0,
-                  color: "#FFFFFF",
-                }}
-              >
-                <ShoppingOutlined
-                  style={{
-                    fontSize: "24px",
-                    color: "#FFFFFF",
-                    marginRight: 10,
-                  }}
-                />{" "}
-                {cart}Giỏ hàng
-              </p>
+              <div className="cart-item">
+                <ShoppingOutlined />
+                {cart}
+              </div>
             </Col>
             <Col>
               <Badge
-                style={{ marginLeft: 10 }}
+                style={{
+                  color: "#000000",
+                  marginLeft: 10,
+                  marginRight: 1,
+                }}
                 overflowCount={9999}
                 count={userData?.score > 0 ? userData?.score : 0}
               />
@@ -254,7 +245,7 @@ function Topbar() {
                 <Badge count={countNotification}>
                   <Avatar
                     style={{
-                      backgroundColor: "#FFFFFF",
+                      backgroundColor: "#ffffff",
                       marginLeft: 5,
                       marginRight: 5,
                       cursor: "pointer",

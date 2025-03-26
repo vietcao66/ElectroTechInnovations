@@ -574,7 +574,7 @@ const Home = () => {
           </div>
           <div className="texty-title">
             <p>
-              Nhãn Hàng <strong style={{ color: "#3b1d82" }}>Nỗi Bật</strong>
+              Nhãn Hàng <strong style={{ color: "#3b1d82" }}>Nổi Bật</strong>
             </p>
           </div>
 

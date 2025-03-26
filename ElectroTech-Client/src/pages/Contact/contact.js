@@ -88,16 +88,16 @@ const Contact = () => {
                 <div class="col-lg-4">
                   <img
                     class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
                     alt="avatar"
                   />
-                  <h5 class="mb-3">Anna Deynah</h5>
+                  <h5 class="mb-3">Đức Việt</h5>
                   <p>UX Designer</p>
                   <p class="text-muted">
                     <i class="fas fa-quote-left pe-2"></i>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quod eos id officiis hic tenetur quae quaerat ad velit ab
-                    hic tenetur.
+                    Pain itself is pleasing to sit, elite consectetur. Because
+                    those who officiate here desire what they seek to achieve
+                    through it.
                   </p>
                   <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                     <li>
@@ -124,12 +124,13 @@ const Contact = () => {
                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
                     alt="avatar"
                   />
-                  <h5 class="mb-3">John Doe</h5>
+                  <h5 class="mb-3">Đức Việt</h5>
                   <p>Web Developer</p>
                   <p class="text-muted">
                     <i class="fas fa-quote-left pe-2"></i>
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid commodi.
+                    For indeed to the least I may come, who of us exercise of
+                    the body undertakes laborious, unless that something
+                    advantageous.
                   </p>
                   <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                     <li>
@@ -153,16 +154,16 @@ const Contact = () => {
                 <div class="col-lg-4 d-none d-lg-block">
                   <img
                     class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
                     alt="avatar"
                   />
-                  <h5 class="mb-3">Maria Kate</h5>
+                  <h5 class="mb-3">Đức Việt</h5>
                   <p>Photographer</p>
                   <p class="text-muted">
                     <i class="fas fa-quote-left pe-2"></i>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus
-                    qui blanditiis praesentium voluptatum deleniti atque
-                    corrupti.
+                    But truly them and we accuse and with just hatred the worthy
+                    we lead who flatteries of the present pleasures share and
+                    corrupt.
                   </p>
                   <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                     <li>
@@ -264,10 +265,7 @@ const Contact = () => {
                       <li>
                         <i class="fas fa-map-marker-alt fa-2x text-primary"></i>
                         <p>
-                          <small>
-                            350-352 Võ Văn Kiệt, Phường Cô Giang Quận 1, Thành
-                            phố Hồ Chí Minh
-                          </small>
+                          <small>Hai Bà Trưng - Hà Nội - Việt Nam</small>
                         </p>
                       </li>
                       <li>

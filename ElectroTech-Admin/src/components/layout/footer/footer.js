@@ -11,7 +11,7 @@ function _Footer() {
         textAlign: "center",
       }}
     >
-      Copyright@
+      Copyright@2025
     </Footer>
   );
 }

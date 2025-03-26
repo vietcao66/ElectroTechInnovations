@@ -148,8 +148,7 @@ function _Footer() {
               cursor: "pointer",
             }}
           >
-            Chi nhánh 1: 94E-94F Đường Láng, Phường Ngã Tư Sở, Quận Đống Đa, Hà
-            Nội
+            Chi nhánh 1: NEU - 207 Giải Phóng - Hai Bà Trưng - Hà Nội
           </p>
           <p
             style={{
@@ -160,8 +159,7 @@ function _Footer() {
               cursor: "pointer",
             }}
           >
-            Chi nhánh 2: 94E-94F Đường Láng, Phường Ngã Tư Sở, Quận Đống Đa, Hà
-            Nội
+            Chi nhánh 2: NEU - Trần Đại Nghĩa - Hai Bà Trưng - Hà Nội
           </p>
         </Col>
         <Col span={4}>
@@ -289,7 +287,7 @@ function _Footer() {
       </div>
       <div style={{ textAlign: "center" }}>
         <Divider style={{ padding: 0 }} />
-        <p style={{ color: "#FFFFFF", fontSize: 13 }}>Copyright@</p>
+        <p style={{ color: "#FFFFFF", fontSize: 13 }}>Copyright@2025</p>
         <p style={{ color: "#FFFFFF", fontSize: 13 }}>
           Điện thoại: (+84) 000.0000000 - (+84) 000.0000000
         </p>
