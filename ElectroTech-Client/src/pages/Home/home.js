@@ -18,7 +18,14 @@ import service9 from "../../assets/image/service/service9.png";
 import service10 from "../../assets/image/service/service10.png";
 import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 import triangleTopRight from "../../assets/icon/Triangle-Top-Right.svg";
-
+import bannerImage from "../../assets/image/banner/0.png";
+import bannerSlide1 from "../../assets/image/banner/1.png";
+import bannerSlide2 from "../../assets/image/banner/2.png";
+import bannerSlide3 from "../../assets/image/banner/3.png";
+import icon1 from "../../assets/image/banner/icon1.png";
+import icon2 from "../../assets/image/banner/icon2.png";
+import icon3 from "../../assets/image/banner/icon3.png";
+import icon4 from "../../assets/image/banner/icon4.png";
 import { useHistory } from "react-router-dom";
 import { RightOutlined, QrcodeOutlined } from "@ant-design/icons";
 import {
@@ -204,20 +211,32 @@ const Home = () => {
                 <div className="img">
                   <img
                     style={{ width: "100%", height: 250 }}
-                    src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/TGDD--Desk--1920x450-3.png"
+                    // src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/TGDD--Desk--1920x450-3.png"
+                    src={bannerSlide1}
+                    //src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:90/plain/https://dashboard.cellphones.com.vn/storage/tivi-vi-xiaomi-catehome.jpg"
+                    // src="../../assets/image/banner/banner.png"
+                    // src="../../../../img-phone/baner/xiaomi.svg"
+                    //src="https://i02.appmifile.com/769_operator_vn/02/03/2025/bf88448eb59f053360999f381ba365d1.svg"
+                    //src="https://i02.appmifile.com/856_operator_vn/02/03/2025/4702d8775af555345bd3be50ffb3618e.jpg?thumb=1&w=2160&f=webp&q=85"
                     alt=""
                   />
                 </div>
                 <div className="img">
                   <img
                     style={{ width: "100%", height: 250 }}
-                    src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/AWCS-720-220-720x220.png"
+                    src={bannerSlide2}
+                    //src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/AWCS-720-220-720x220.png"
                   />
+                  {/* <video
+                    style={{ width: "100%", height: 250 }}
+                    src="https://cdn.alsgp0.fds.api.mi-img.com/e-commerce/test/Hyper%20AI-Banner-PC-%E5%8A%A8%E6%80%81.mp4"
+                  ></video> */}
                 </div>
                 <div className="img">
                   <img
                     style={{ width: "100%", height: 250 }}
-                    src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/Xiaomi-720-220-720x220-5.png"
+                    src={bannerSlide3}
+                    //src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/Xiaomi-720-220-720x220-5.png"
                     alt=""
                   />
                 </div>
@@ -233,7 +252,8 @@ const Home = () => {
                 <div class="product-card">
                   <div class="product-image">
                     <img
-                      src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Frame-232388-100x100.png"
+                      //src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Frame-232388-100x100.png"
+                      src={icon1}
                       alt="Sản phẩm 1"
                     />
                   </div>
@@ -242,7 +262,8 @@ const Home = () => {
                 <div class="product-card">
                   <div class="product-image">
                     <img
-                      src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Group-233047-120x120-120x120-120x120.png"
+                      src={icon2}
+                      //src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn//content/Group-233047-120x120-120x120-120x120.png"
                       alt="Sản phẩm 2"
                     />
                   </div>
@@ -251,7 +272,8 @@ const Home = () => {
                 <div class="product-card">
                   <div class="product-image">
                     <img
-                      src="https://cdn.tgdd.vn//content/icon-TGDD-OF-100x100-1.gif"
+                      src={icon3}
+                      // src="https://cdn.tgdd.vn//content/icon-TGDD-OF-100x100-1.gif"
                       alt="Sản phẩm 3"
                     />
                   </div>
@@ -265,19 +287,20 @@ const Home = () => {
                   href="https://cellphones.com.vn/samsung-galaxy-z-flip-4.html"
                   class="right-banner__item"
                 >
-                  <img
-                    src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/C53-720-220-720x220-9.png"
+                  {/* <img
+                    //src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/C53-720-220-720x220-9.png"
                     alt="FOLD4 |FLIP4<br>Giá rẻ bất ngờ"
                     loading="lazy"
                     class="right-banner__img"
-                  />
+                  /> */}
                 </a>
                 <a
                   href="https://cellphones.com.vn/tablet/ipad.html?order=filter_price&amp;dir=asc"
                   class="right-banner__item"
                 >
                   <img
-                    src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/09/banner/b2s-720-220-720x220-1.png"
+                    //src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/09/banner/b2s-720-220-720x220-1.png"
+                    src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:10/plain/https://dashboard.cellphones.com.vn/storage/right-imac-m4-30-12.jpg "
                     a
                     lt="IPAD CHÍNH HÃNG<br>Lên đời từ 6.89 triệu"
                     loading="lazy"
@@ -289,7 +312,9 @@ const Home = () => {
                   class="right-banner__item"
                 >
                   <img
-                    src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/Xiaomi-720-220-720x220-5.png"
+                    //src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/Xiaomi-720-220-720x220-5.png"
+                    //src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:10/plain/https://dashboard.cellphones.com.vn/storage/m55-9190-9-3-25-right-banner.png "
+                    src={icon4}
                     alt="LENOVO IDEAPAD<br> THIẾT KẾ CỨNG CÁP"
                     loading="lazy"
                     class="right-banner__img"
@@ -300,7 +325,8 @@ const Home = () => {
                   class="right-banner__item"
                 >
                   <img
-                    src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/S23fe-720-220-720x220-6.png"
+                    //src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/10/banner/S23fe-720-220-720x220-6.png"
+                    src="https://cdn2.cellphones.com.vn/insecure/rs:fill:690:300/q:10/plain/https://dashboard.cellphones.com.vn/storage/s-edu-2-0-right-laptop.jpg "
                     alt="LENOVO IDEAPAD<br> THIẾT KẾ CỨNG CÁP"
                     loading="lazy"
                     class="right-banner__img"
@@ -313,7 +339,8 @@ const Home = () => {
 
         <div className="container-home container">
           <img
-            src="https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/08/banner/Desk-1200x100.png"
+            // src="https://im.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/2023/08/banner/Desk-1200x100.png"
+            src={bannerImage}
             className="promotion1"
           ></img>
         </div>
@@ -664,7 +691,7 @@ const Home = () => {
               </div>
               <div className="texty-title-footer">
                 <p>
-                  Tham Dự Buổi <strong>Ra Mắt Bếp Từ Mới</strong>
+                  Tham Dự Buổi <strong>Ra Mắt IPHONE 18 Mới</strong>
                 </p>
               </div>
               <Row

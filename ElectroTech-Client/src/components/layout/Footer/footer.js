@@ -176,25 +176,25 @@ function _Footer() {
           <Row style={{ marginTop: 15 }}>
             <Col span={6}>
               <SocialIcon
-                url="https://www.youtube.com/@CellphoneSOfficial"
+                url="https://www.youtube.com/"
                 style={{ height: 35, width: 35, cursor: "pointer" }}
               />
             </Col>
             <Col span={6}>
               <SocialIcon
-                url="https://www.facebook.com/CellphoneSVietnam"
+                url="https://www.facebook.com/"
                 style={{ height: 35, width: 35, cursor: "pointer" }}
               />
             </Col>
             <Col span={6}>
               <SocialIcon
-                url="https://www.instagram.com/cellphonesvn/"
+                url="https://www.instagram.com/"
                 style={{ height: 35, width: 35, cursor: "pointer" }}
               />
             </Col>
             <Col span={6}>
               <SocialIcon
-                url="https://www.tiktok.com/@cellphones.official"
+                url="https://www.tiktok.com/"
                 style={{ height: 35, width: 35, cursor: "pointer" }}
               />
             </Col>
@@ -288,9 +288,7 @@ function _Footer() {
       <div style={{ textAlign: "center" }}>
         <Divider style={{ padding: 0 }} />
         <p style={{ color: "#FFFFFF", fontSize: 13 }}>Copyright@2025</p>
-        <p style={{ color: "#FFFFFF", fontSize: 13 }}>
-          Điện thoại: (+84) 000.0000000 - (+84) 000.0000000
-        </p>
+        <p style={{ color: "#FFFFFF", fontSize: 13 }}>Điện thoại: (+84)</p>
       </div>
     </Footer>
   );
