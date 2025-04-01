@@ -174,7 +174,7 @@ function Topbar() {
         </NavLink>
         <NavLink
           className={styles.navlink}
-          to="/product-list/653a6c6db32da1285f70166a"
+          to="/product-list/67e355ba832de0abf73aec11"
           activeStyle
         >
           Sản phẩm

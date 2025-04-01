@@ -133,19 +133,19 @@ const Home = () => {
         const data = { limit: 10, page: 1 };
         const response = await productApi.getProductsByCategory(
           data,
-          "653a6c3db32da1285f70165e"
+          "67e355ba832de0abf73aec11"
         );
         console.log(response);
         setProductsPhone(response.data.docs);
         const response2 = await productApi.getProductsByCategory(
           data,
-          "653a6c4db32da1285f701662"
+          "67e356cc832de0abf73aed0f"
         );
         console.log(response2);
         setProductsPC(response2.data.docs);
         const response3 = await productApi.getProductsByCategory(
           data,
-          "653a6c5cb32da1285f701666"
+          "67e35578832de0abf73aec0c"
         );
         console.log(response3);
         setProductsTablet(response3.data.docs);
