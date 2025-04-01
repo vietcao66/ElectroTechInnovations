@@ -223,8 +223,19 @@ const ProductDetail = () => {
     }
   };
 
+  // const handleReadMore = (id) => {
+  //   console.log("id------------------------------------", id);
+  //   history.push("/product-detail/" + id);
+  //   window.location.reload();
+  // };
   const handleReadMore = (id) => {
-    console.log(id);
+    // Add these console logs to see more details
+    console.log("Product ID:", id);
+    console.log(
+      "Full product data:",
+      recommend.find((item) => item._id === id)
+    );
+
     history.push("/product-detail/" + id);
     window.location.reload();
   };
