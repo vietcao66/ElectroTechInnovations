@@ -64,7 +64,7 @@ const Login = () => {
               style={{ marginBottom: 5, fontSize: 19 }}
               orientation="center"
             >
-              CHÀO MỪNG BẠN ĐẾN VỚI Buym.!
+              CHÀO MỪNG BẠN ĐẾN VỚI BUYM!
             </Divider>
           </Form.Item>
           <Form.Item style={{ marginBottom: 16, textAlign: "center" }}>

@@ -46,7 +46,7 @@ const Login = () => {
           onFinish={onFinish}
         >
           <div className="form-header">
-            <Divider orientation="center">CHÀO MỪNG BẠN ĐẾN VỚI Buym.!</Divider>
+            <Divider orientation="center">CHÀO MỪNG BẠN ĐẾN VỚI BUYM!</Divider>
             <p className="form-subtitle">Đăng nhập để vào hệ thống quản lý</p>
           </div>
           {!isLogin && (

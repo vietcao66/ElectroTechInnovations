@@ -85,80 +85,15 @@ const Contact = () => {
           <div class="carousel-item active">
             <div class="container">
               <div class="row">
-                <div class="col-lg-4">
-                  <img
-                    class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
-                    alt="avatar"
-                  />
-                  <h5 class="mb-3">Đức Việt</h5>
-                  <p>UX Designer</p>
-                  <p class="text-muted">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    Pain itself is pleasing to sit, elite consectetur. Because
-                    those who officiate here desire what they seek to achieve
-                    through it.
-                  </p>
-                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                    <li>
-                      <i class="fas fa-star fa-sm"></i>
-                    </li>
-                    <li>
-                      <i class="fas fa-star fa-sm"></i>
-                    </li>
-                    <li>
-                      <i class="fas fa-star fa-sm"></i>
-                    </li>
-                    <li>
-                      <i class="fas fa-star fa-sm"></i>
-                    </li>
-                    <li>
-                      <i class="fas fa-star fa-sm"></i>
-                    </li>
-                  </ul>
-                </div>
-
                 <div class="col-lg-4 d-none d-lg-block">
                   <img
                     class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
+                    src="https://res.cloudinary.com/dz9zsaofp/image/upload/k85nvh1apxoikw2plihr"
                     alt="avatar"
+                    style={{ width: "200px", height: "auto" }}
                   />
-                  <h5 class="mb-3">Đức Việt</h5>
-                  <p>Web Developer</p>
-                  <p class="text-muted">
-                    <i class="fas fa-quote-left pe-2"></i>
-                    For indeed to the least I may come, who of us exercise of
-                    the body undertakes laborious, unless that something
-                    advantageous.
-                  </p>
-                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                    <li>
-                      <i class="fas fa-star fa-sm"></i>
-                    </li>
-                    <li>
-                      <i class="fas fa-star fa-sm"></i>
-                    </li>
-                    <li>
-                      <i class="fas fa-star fa-sm"></i>
-                    </li>
-                    <li>
-                      <i class="fas fa-star fa-sm"></i>
-                    </li>
-                    <li>
-                      <i class="fas fa-star-half-alt fa-sm"></i>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-4 d-none d-lg-block">
-                  <img
-                    class="rounded-circle shadow-1-strong mb-4"
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
-                    alt="avatar"
-                  />
-                  <h5 class="mb-3">Đức Việt</h5>
-                  <p>Photographer</p>
+                  <h5 class="mb-3">Đức Việt </h5>
+                  <p>Developer </p>
                   <p class="text-muted">
                     <i class="fas fa-quote-left pe-2"></i>
                     But truly them and we accuse and with just hatred the worthy

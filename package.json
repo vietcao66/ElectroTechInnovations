@@ -1,0 +1,16 @@
+{
+  "name": "electrotech-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^2.6.1"
+  }
+}

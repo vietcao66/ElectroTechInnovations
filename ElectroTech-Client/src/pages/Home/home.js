@@ -394,7 +394,7 @@ const Home = () => {
               <Col>
                 <div className="title-category">
                   <a href="" class="title">
-                    <h3>SẢN PHẨM NỔI BẬT NHẤT</h3>
+                    <h3>SẢN PHẨM ĐIỆN THOẠI NỔI BẬT NHẤT</h3>
                   </a>
                 </div>
               </Col>
@@ -534,7 +534,7 @@ const Home = () => {
               <Col>
                 <div className="title-category">
                   <a href="" class="title">
-                    <h3>SẢN PHẨM KHUYẾN MÃI</h3>
+                    <h3>SẢN PHẨM MÀN HÌNH KHUYẾN MÃI</h3>
                   </a>
                 </div>
               </Col>
@@ -601,7 +601,7 @@ const Home = () => {
           </div>
           <div className="texty-title">
             <p>
-              Nhãn Hàng <strong style={{ color: "#3b1d82" }}>Nổi Bật</strong>
+              Laptop <strong style={{ color: "#3b1d82" }}>Nổi Bật</strong>
             </p>
           </div>
 

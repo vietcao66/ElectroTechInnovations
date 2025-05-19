@@ -373,7 +373,7 @@ const CategoryList = () => {
               </Breadcrumb.Item>
               <Breadcrumb.Item href="">
                 <ShoppingOutlined />
-                <span>Danh mục</span>
+                <span>Danh mục sản phẩm</span>
               </Breadcrumb.Item>
             </Breadcrumb>
           </div>
