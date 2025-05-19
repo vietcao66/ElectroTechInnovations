@@ -1,2 +1,1 @@
-# dastore-management
- 
+# store-management
